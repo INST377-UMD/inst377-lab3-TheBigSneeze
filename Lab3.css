@@ -1,0 +1,67 @@
+
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(209, 75, 75);
+    background-color: bisque;
+
+}
+.header-footer {
+    color: brown;
+    background-color: aqua;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    
+
+}
+
+nav ol {
+    display: flex;
+    background-color: orange;
+    margin: auto;
+}
+
+nav ol a:hover {
+    background-color: aquamarine;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+
+
+}
+
+.Main {
+    background-color: azure ;
+    text-align: left;
+    float: left;
+    width: 80%;
+    
+    margin: auto;
+    padding: 25px;
+    
+}
+
+input[type= "text"]{
+
+    width: 100px;
+}
+input[type= "text"]:focus {
+    width: 250px;
+}
+
+.sidebar{
+    background-color: black;
+    float :right;
+    width: 20%;
+    margin: auto;
+    padding: 25px;
+}
+.sidebar:hover {
+background-color: gold;
+color: rgb(109, 60, 68);
+
+}
+
